@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <style>
+            body {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .pc,
+            .table,
+            .mobile {
+                font-size: 68px;
+            }
+
+            @media (max-width: 800px) {
+                .pc,
+            .table,
+            .mobile {
+                color: red;
+            } 
+            }
+        </style>
+    </head>
+    <body>
+        <h2 class="pc">PC</h2>
+        <h2 class="tablet">TABLET</h2>
+        <h2 class="mobile">MOBILE</h2>
+    </body>
+</html>
